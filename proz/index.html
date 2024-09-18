@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proz</title>
+    <link rel="stylesheet" href="/proz.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" href="/src/icone.png" type="image/png">
+</head>
+
+<body>
+    <nav id="menubar">
+        <img src="/src/logo.png" alt="Logo" id="logo">
+        <div class="nav-links">
+            <ul>
+                
+                <li><a href="#ksocial" id="FC">Fale Conosco</a></li>
+
+                <li>
+                    <a href="#" id="AP">Alunos e professores </a>
+
+                    <ul class="dropdown">
+                        <li><a href="https://gestao.prozeducacao.com.br/">São Paulo</a></li>
+                        <li><a href="https://gestao.prozeducacao.com.br/">Minas Gerais</a></li>
+                        <li><a href="https://gestao.prozeducacao.com.br/">Paraná</a></li>
+                    </ul>
+                    <div class="seta-v"></div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+
+
+    <div id="prozBackground"></div>
+    <div class="firstBackgrou   nd"></div>
+    <form id="registrationForm">
+        <div class="containerInfos">
+            <div class="inputContainer">
+
+
+                <p class="nometxt">Nome *</p>
+                <input type="text" id="nomeInput" placeholder=" Digite seu nome..." required>
+
+
+                <p class="emailtxt">Email *</p>
+                <input type="email" id="emailInput" placeholder=" Digite seu E-mail..." required>
+                <span id="emailError" style="color: red; display: none;">E-mail inválido!</span>
+
+
+
+
+                <p class="telefonetxt">Telefone *</p>
+                <input type="tel" id="telefoneInput" placeholder=" Digite seu Telefone..." required>
+
+                </select>
+                <button type="submit" id="inscrevaseBT">INSCREVA-SE AGORA</button>
+                <span class="mauticform-errormsg" style="display: none;">Este campo é obrigatório</span>
+
+
+
+
+
+                <datalist id="estados">
+                    <option value=" São Paulo"></option>
+                    <option value=" Minas Gerais"></option>
+                    <option value=" Paraná"></option>
+                </datalist>
+
+            </div>
+
+        </div>
+        <div class="container">
+            <label for="estado" class="label">
+                Selecione um estado <span class="text-red-500">*</span>
+            </label>
+            <select id="estado" name="estado" class="select">
+                <option>Selecione o seu estado</option>
+                <option>São Paulo</option>
+                <option>Minas Gerais</option>
+                <option>Paraná</option>
+            </select>
+
+
+
+        </div>
+
+        </div>
+
+
+
+
+
+        <section class="secondpart">
+            <h2 class="cnct">Conheça nossos cursos técnicos</h2>
+            <p class="esp">Os melhores Cursos Técnicos com a flexibilidade que você precisa. Comece a estudar já!</p>
+            <img src="/src/saude.png" class="saudeimg">
+            <img src="/src/gestao.png" class="gestaoimg">
+            <img src="/src/tecnologia.png" class="tecimg">
+            <div class="enfermagemlinks">
+                <a href="https://inscricao.prozeducacao.com.br/inscricao-enfermagem/">> Técnico em Enfermagem</a>
+                <a href="https://inscricao.prozeducacao.com.br/inscricao-radiologia/">> Técnico em Radiologia</a>
+                <a href="https://inscricao.prozeducacao.com.br/inscricao-farmacia/">> Técnico em Farmácia</a>
+                <a href="https://inscricao.prozeducacao.com.br/inscricao-estetica/">> Técnico em Estética</a>
+            </div>
+
+            <div class="teclinks">
+                <a href="https://inscricao.prozeducacao.com.br/inscricao-desenvolvimento-de-sistemas/">> Técnico em Desenvolvimento de Sistemas</a>
+            </div>
+
+            <div class="gestaolinks">
+                <a href="https://inscricao.prozeducacao.com.br/inscricao-administracao/">> Técnico em Administração</a>
+                <a href="https://inscricao.prozeducacao.com.br/inscricao-recursos-humanos/">> Técnico em Recursos Humanos</a>
+                <a href="https://inscricao.prozeducacao.com.br/inscricao-seguranca-do-trabalho/">> Técnico em Segurança do Trabalho</a>
+            </div>
+
+
+            <h2 class="pq">Por que fazer seu curso técnico na Proz? </h2>
+
+
+            <div class="slider">
+                <div class="slides">
+                    <input type="radio" name="radio-btn" id="radio1">
+                    <input type="radio" name="radio-btn" id="radio2">
+                    <input type="radio" name="radio-btn" id="radio3">
+                    <input type="radio" name="radio-btn" id="radio4">
+
+
+
+
+                    <div class="slide first">
+                        <img src="/src/Horários Flexíveis.png" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="/src/teoriaepratica.png" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="/src/ensinomodular.png" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="src/softskills.png" alt="">
+                    </div>
+
+
+
+                    <div class="navigation-auto">
+                        <div class="auto-btn1"></div>
+                        <div class="auto-btn2"></div>
+                        <div class="auto-btn3"></div>
+                        <div class="auto-btn4"></div>
+                    </div>
+                </div>
+                <div class="manual-navigation">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                    <label for="radio4" class="manual-btn"></label>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+        <section class="thirdpart">
+
+            <div class="estrutura"></div>
+            <h2 class="struct">Nossa estrutura</h2>
+            <p class="teory">Teoria e prática, lado a lado, em laboratórios modernos e equipados</p>
+
+            <div class="slider2">
+                <div class="slides2">
+                    <input type="radio" name="radio-btn2" id="radio5">
+                    <input type="radio" name="radio-btn2" id="radio6">
+                    <input type="radio" name="radio-btn2" id="radio7">
+                    <input type="radio" name="radio-btn2" id="radio8">
+
+                    <div class="slide2 first2">
+                        <img src="/src/estrutura1.jpeg" alt="">
+                    </div>
+                    <div class="slide2">
+                        <img src="/src/estrutura2.jpeg" alt="">
+                    </div>
+                    <div class="slide2">
+                        <img src="/src/estrutura3.jpeg" alt="">
+                    </div>
+                    <div class="slide2">
+                        <img src="/src/estrutura4.jpeg" alt="">
+                    </div>
+
+                    <div class="navigation-auto2">
+                        <div class="auto-btn5"></div>
+                        <div class="auto-btn6"></div>
+                        <div class="auto-btn7"></div>
+                        <div class="auto-btn8"></div>
+                    </div>
+                </div>
+                <div class="manual-navigation2">
+                    <label for="radio5" class="manual-btn2"></label>
+                    <label for="radio6" class="manual-btn2"></label>
+                    <label for="radio7" class="manual-btn2"></label>
+                    <label for="radio8" class="manual-btn2"></label>
+                </div>
+            </div>
+            <img src="/src/alunos.png" class="alunoEmpregados">
+            <h2 class="years">
+                <span style="color:#FF7F00;">+</span>
+                15 anos
+            </h2>
+            <div class="xp">
+                <p>De experiência</p>
+            </div>
+
+            <div class="quantalunos">
+                <h2 class="qantmec"><span style="color:#FF7F00;">+</span> 40 mil</h2>
+            </div>
+            <div class="contalunos">
+                <p>Alunos formados</p>
+            </div>
+
+
+
+            <div class="unit">
+                <h2 class="unit2"><span style="color:#FF7F00;">+</span> 25 unidades</h2>
+            </div>
+
+            <div class="location">
+                <p>Pelo Brasil</p>
+            </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <div class="content-wrapper">
+                <h1 class="header-title">Conheça nossas unidades</h1>
+                <p class="header-subtitle">São 25 unidades nos estados de São Paulo, Minas Gerais e Paraná</p>
+
+                <div class="state-section" id="sao-paulo-section">
+                    <h2 class="state-header" onclick="toggleState('sao-paulo-section')"><span>São Paulo</span> <i
+                            class="fas fa-chevron-down"></i></h2>
+                    <ul class="state-list" id="sao-paulo-list">
+                        <li>Campo Limpo</li>
+                        <li>Carapicuíba</li>
+                        <li>Diadema</li>
+                        <li>Grajaú</li>
+                        <li>Guarulhos</li>
+                        <li>Guaianases</li>
+                        <li>Itaquera</li>
+                        <li>Jabaquara</li>
+                        <li>Mauá</li>
+                        <li>Mogi das Cruzes</li>
+                        <li>Osasco</li>
+                        <li>Sacomã</li>
+                        <li>Santo Amaro</li>
+                        <li>Santo André</li>
+                        <li>São Miguel Paulista</li>
+                        <li>Tucuruvi</li>
+                        <li>Vila Nova Cachoeirinha</li>
+                    </ul>
+                </div>
+
+                <div class="divider"></div>
+
+                <div class="state-section" id="minas-gerais-section">
+                    <h2 class="state-header" onclick="toggleState('minas-gerais-section')"><span>Minas Gerais</span> <i
+                            class="fas fa-chevron-down"></i></h2>
+                    <ul class="state-list" id="minas-gerais-list">
+                        <li>Belo Horizonte (Centro)</li>
+                        <li>Belo Horizonte (Venda Nova)</li>
+                        <li>Contagem</li>
+                        <li>Divinópolis</li>
+                        <li>Juiz de Fora</li>
+                        <li>Montes Claros</li>
+                        <li>Uberlândia</li>
+                    </ul>
+                </div>
+
+                <div class="divider"></div>
+
+                <div class="state-section" id="parana-section">
+                    <h2 class="state-header" onclick="toggleState('parana-section')"><span>Paraná</span> <i
+                            class="fas fa-chevron-down"></i></h2>
+                    <ul class="state-list" id="parana-list">
+                        <li>Curitiba</li>
+                    </ul>
+                </div>
+            </div>
+            <img src="/src/map.png" class="mapImage">
+            <img src="/src/testevocacional.jpg" class="testevocacional">
+            <button id="testebt" type="testedebglh">Fazer o teste agora</button>
+
+
+
+
+
+            <div class="socias" id="ksocial">
+                <div class="footer-logo">
+                    <img alt="Proz logo" height="40" src="/src/logo.png" width="100" />
+                </div>
+                <div class="footer-links">
+                    <a href="#">
+                        <i class="fab fa-whatsapp">
+                        </i>
+                        WhatsApp
+                    </a>
+                    <a href="#">
+                        <i class="fas fa-phone">
+                        </i>
+                        Fale Conosco: 0800-580-3041
+                    </a>
+                </div>
+                <div class="footer-social-icons">
+                    <a href="https://www.facebook.com/prozeducacaobr"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/prozeducacaobr/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/c/ProzEduca%C3%A7%C3%A3obr"><i class="fab fa-youtube"></i>
+                    <a href="https://www.tiktok.com/@prozeducacaobr"><i class="fab fa-tiktok"></i></a>
+                    <a href="https://www.linkedin.com/school/prozeducacao/posts/?feedView=all"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </section>
+        <script src="/script.js"></script>
+</body>
+
+</html>
